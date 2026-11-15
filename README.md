@@ -13,7 +13,7 @@ This is a 5 page responsive website built for a fictional digital marketing agen
 - CT101/G/26398/25 -  MILDRED SABINA ORUTWA
 - CT101/G/26524/25 -  SAMMY KIOKO
 - CT101/G/26446/25 -  GABRIEL KARUIKI
-- CT101/G/26444/25 -  LENNY LEPAYANUI
+- CT101/G/26444/25 -  LENNY LEPAYAPUI
 
 
 ## TOOLS USED
