@@ -6,14 +6,13 @@
 }
 
 :root {
-  /* Palette 2 - Deep Purple/Plum */
-  --bg-deep: #00030E;       /* Darkest (Navbar, Footer) */
-  --bg-main: #0B0E1A;       /* Main Body Background */
-  --bg-card: #2C1B2F;       /* Cards Background */
-  --accent-dark: #5E3A5C;   /* Borders, subtle elements */
-  --primary: #B47A9A;       /* Main Brand Color (Buttons, Highlights) */
-  --text-light: #F3E9EC;    /* Main Text Color */
-  --text-muted: #B47A9A;    /* Secondary Text */
+  --bg-deep: #00030E;
+  --bg-main: #0B0E1A;
+  --bg-card: #2C1B2F;
+  --accent-dark: #5E3A5C;
+  --primary: #B47A9A;
+  --text-light: #F3E9EC;
+  --text-muted: #CBB8C3;    /* <-- Lighter, softer contrast for readable paragraphs */
 }
 
 body {
@@ -147,9 +146,9 @@ section h2::after {
 /* CARDS */
 .service-card, .portfolio-card {
   background: var(--bg-card);
-  padding: 2.5rem 2rem;
+  padding: 2rem;
   border-radius: 15px;
-  text-align: center;
+  text-align: left;
   border: 1px solid var(--accent-dark);
   transition: all 0.3s ease;
 }
