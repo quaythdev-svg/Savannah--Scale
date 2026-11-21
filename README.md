@@ -1,7 +1,7 @@
 # Savannah Scale - Digital marketing agency
 
 ## PROJECT DESCRIPTION.
-This is a 5 page responsive website built for a fictional digital marketing agency ,"Savannah Scale". The website showcases the agency's services, a brief storied background of the agency on the about page , their portfolio and provides a contact form for potential clients The primary goal was to demostrate front end web development skills using HTML and CSS, ensuring all pages are interlinked and with a consistent navigation menu.
+This is a 5 page responsive website built for a fictional digital marketing agency ,"Savannah Scale". The website showcases the agency's services, a brief storied background of the agency on the about page , their portfolio and provides a contact form for potential clients The primary goal was to demostrate front end web development skills using HTML and CSS, ensuring all pages are interlinked and with a consistent navigation menu added tables and lists.
 
 ## GROUP MEMBERS
 
@@ -14,6 +14,7 @@ This is a 5 page responsive website built for a fictional digital marketing agen
 - CT101/G/26524/25 -  SAMMY KIOKO
 - CT101/G/26446/25 -  GABRIEL KARUIKI
 - CT101/G/26444/25 -  LENNY LEPAYAPUI
+- CT101/G/26503/25 -  KELLY KIUGI
 
 
 ## TOOLS USED
