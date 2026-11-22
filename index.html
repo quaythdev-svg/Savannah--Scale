@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Savannah Scale - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -17,35 +18,60 @@
     </ul>
   </nav>
 
-  <section class="hero">
-    <h1>Helping your business go digital & Scale</h1>
-    <p>Data-driven digital marketing that delivers real results.</p>
-    <a href="contact.html" class="btn">Get Started</a>
-  </section>
+  <main>
+    <!-- 1. Upgraded Top Hero Card (From your 2nd screenshot) -->
+    <section class="home-hero">
+      <div class="hero-card">
+        <span class="hero-badge">PERFORMANCE MARKETING &amp; AI AUTOMATION</span>
+        <h1>Helping Your Business Go Digital &amp; Scale</h1>
+        <p>
+          Data-driven digital marketing, high-converting paid ads, and automated growth 
+          systems engineered to deliver measurable revenue.
+        </p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn-primary">Get Started</a>
+          <a href="services.html" class="btn-secondary">Explore Services</a>
+        </div>
+      </div>
+    </section>
 
-  <section>
-    <h2>Why Choose Us</h2>
-    <div class="services-grid">
-      <div class="service-card">
-       <img src="images/fast results.jpg" alt="Fast Results" class="icon-img">
-        <h3>Fast Results</h3>
-        <p>See growth within the first 30 days of working with us.</p>
+    <!-- 2. Your Original "Why Choose Us" Section with Images Kept Intact -->
+    <section class="why-us-original">
+      <h2>Why Choose Us</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="images/fast results.jpg" alt="Fast Results" class="icon-img">
+          <h3>Fast Results</h3>
+          <p>See growth within the first 30 days of working with us.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/data driven.jpg" alt="Data Driven" class="icon-img">
+          <h3>Data-Driven</h3>
+          <p>Every decision backed by analytics and real metrics.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/ai powered.jpg" alt="AI powered" class="icon-img">
+          <h3>AI-Powered</h3>
+          <p>We use automation and AI to maximize your ROI.</p>
+        </div>
       </div>
-      <div class="service-card">
-       <img src="images/data driven.jpg" alt="Data Driven" class="icon-img">
-        <h3>Data-Driven</h3>
-        <p>Every decision backed by analytics and real metrics.</p>
+    </section>
+
+    <!-- 3. Upgraded Bottom CTA Banner (From your 1st screenshot) -->
+    <section class="home-cta">
+      <div class="cta-box">
+        <h2>Ready to Scale Your Online Revenue?</h2>
+        <div class="cta-divider"></div>
+        <p>Book a free 15-minute strategy audit and get a custom digital growth roadmap.</p>
+        <a href="contact.html" class="btn-primary">Book Your Free Audit</a>
       </div>
-      <div class="service-card">
-        <img src="images/ai powered.jpg" alt="AI powered" class="icon-img">
-        <h3>AI-Powered</h3>
-        <p>We use automation and AI to maximize your ROI.</p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2026 Savannah Scale . All rights reserved.</p>
+    <p>&copy; <span id="current-year">2026</span> Savannah Scale. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
