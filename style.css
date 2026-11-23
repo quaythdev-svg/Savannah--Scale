@@ -1,11 +1,11 @@
-* {
+* { /* strips away default browser spacing*/
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /*adding padding/border doesn't accidentaly make it woderthan its actual width*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-:root {
+:root { /*stores  colours at the root level an can be reused.*/
   --bg-deep: #00030E;
   --bg-main: #0B0E1A;
   --bg-card: #2C1B2F;
