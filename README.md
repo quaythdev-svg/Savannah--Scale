@@ -41,3 +41,6 @@ SAVANNAH SCALE/
 1. Download or clone the project folder to your computer
 2. Open the `Savannah Scale` folder
 3. Double-click`index.html` to launch the website in your default web browser.
+
+
+## PROJECT WRITE UP.
